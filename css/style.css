@@ -1,0 +1,38 @@
+body{
+    margin: 64px;
+    font-family: 'Mukta', sans-serif;
+}
+
+#container header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container nav {
+    display: flex;
+    align-items: center;
+}
+
+.noticia {
+    display: flex;
+    background-color: rgb(104, 145, 233);
+    color: white;
+    margin-bottom: 32px;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.noticia h3 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.noticia p {
+    margin: 10px 0;
+}
+
+.noticia descricao {
+    margin: 16px 0;
+
+}
+
