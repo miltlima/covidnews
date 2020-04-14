@@ -11,6 +11,12 @@ body{
 #container nav {
     display: flex;
     align-items: center;
+    text-transform: uppercase;
+}
+
+#container nav li {
+    list-style-type: none;
+    margin-right: 18px;
 }
 
 .noticia {
