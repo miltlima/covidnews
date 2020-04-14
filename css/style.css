@@ -3,6 +3,12 @@ body{
     font-family: 'Mukta', sans-serif;
 }
 
+#container {
+    width: 80%;
+    max-width: 980px;
+    align-content: center;
+    margin: 40px auto;
+}
 #container header {
     display: flex;
     justify-content: space-between;
