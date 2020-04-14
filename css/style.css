@@ -20,6 +20,10 @@ body{
     text-transform: uppercase;
 }
 
+#container nav a {
+    color: black;
+}
+
 #container nav li {
     list-style-type: none;
     margin-right: 18px;
@@ -42,7 +46,7 @@ a {
 
 
 .noticia {
-    display: flex;
+    display:flex ;
     background-color: rgb(174, 176, 180);
     text-align: justify;
     color: white;
@@ -56,13 +60,15 @@ a {
     width: 320px;
     height: 240px;
     margin-right: 28px ;
-    border-radius: 8px;
+    border-radius: 16px;
 
 }
 
-.noticia h3 {
+.noticia h3, a {
     margin: 0;
-    font-weight: 700;
+    font-weight: 500;
+    color:white;
+    text-align: left;
 }
 
 .noticia p {
