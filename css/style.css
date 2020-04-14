@@ -1,6 +1,6 @@
 body{
     margin: 64px;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 
 #container {
@@ -25,19 +25,35 @@ body{
     margin-right: 18px;
 }
 
+#container #principal p{
+    text-align: justify;
+    font-size: 20px;
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
     color:black ;
 }
 
+
 .noticia {
     display: flex;
-    background-color: rgb(104, 145, 233);
+    background-color: rgb(174, 176, 180);
+    text-align: justify;
     color: white;
     margin-bottom: 32px;
     padding: 32px;
-    border-radius: 10px;
+    border-radius: 16px;
+    box-shadow:0 4px 16px -8px  rgb(174, 176, 180, 0.5);
+}
+
+.noticia iframe {
+    width: 256;
+    height: 144;
+    margin-right:32px ;
+    border-radius: 8px;
+
 }
 
 .noticia h3 {
@@ -51,6 +67,10 @@ a {
 
 .noticia descricao {
     margin: 16px 0;
+}
 
+#grupo-noticias conteudo {
+    margin: 12px 0;
+    padding: 10%;
 }
 
