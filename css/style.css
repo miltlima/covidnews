@@ -25,6 +25,10 @@ body{
     margin-right: 18px;
 }
 
+#container #principal h2{
+    text-align: center;
+}
+
 #container #principal p{
     text-align: justify;
     font-size: 20px;
@@ -49,9 +53,9 @@ a {
 }
 
 .noticia iframe {
-    width: 256;
-    height: 144;
-    margin-right:32px ;
+    width: 320px;
+    height: 240px;
+    margin-right: 28px ;
     border-radius: 8px;
 
 }
