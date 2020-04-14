@@ -5,7 +5,7 @@ body{
 
 #container {
     width: 80%;
-    max-width: 980px;
+    max-width: 1024px;
     align-content: center;
     margin: 40px auto;
 }
@@ -23,6 +23,12 @@ body{
 #container nav li {
     list-style-type: none;
     margin-right: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:black ;
 }
 
 .noticia {
