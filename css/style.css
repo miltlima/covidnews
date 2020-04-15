@@ -91,6 +91,10 @@ a {
     padding: 10%;
 }
 
+footer {
+    background-color: black;
+}
+
 /* Seçao Sobre o Autor*/
 
 
@@ -105,4 +109,29 @@ a {
     width: 25%;
     height: 25%;
     margin: 28px;
+}
+
+#autor h2 {
+    align-;
+}
+
+/* Seção do form*/
+
+#contato form {
+    width: 80%;
+    max-width: 980px;
+    margin: 0 auto 15%;
+    display: grid;
+    gap: 20px;
+    
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 0.5px solid rgba(150, 148, 148, 0.2);
+    outline: none;
+    font-size: 12px;
 }
