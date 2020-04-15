@@ -2,6 +2,7 @@ body{
     background-color: rgb(223, 223, 223);
     margin: 64px;
     font-family: 'Prompt', sans-serif;
+    font-weight: 400;
 }
 
 #container {
@@ -66,6 +67,7 @@ a {
 
 .noticia img {
     width: 50%;
+    height: 50%;
     margin-right: 28px;
 }
 
