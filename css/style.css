@@ -67,6 +67,7 @@ a {
 .noticia img {
     width: 50%;
     height: 50%;
+    align-content: center;
     margin-right: 28px;
 }
 
@@ -90,3 +91,18 @@ a {
     padding: 10%;
 }
 
+/* Seçao Sobre o Autor*/
+
+
+.me {
+    display: flex;
+    background-color: #F3F3F3;
+    text-align: justify;
+    padding: 24px;
+}
+
+.me img{
+    width: 25%;
+    height: 25%;
+    margin: 28px;
+}
