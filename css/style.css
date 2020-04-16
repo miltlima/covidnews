@@ -47,7 +47,7 @@ a {
 
 .noticia {
     display: flex;
-    background-color: white;
+    background-color: #F3F3F3;
     text-align: justify;
     color: black;
     margin-top: 32px;
@@ -76,7 +76,7 @@ a {
 
 .noticia p {
     margin: 10px 0;
-    color: #8708EE;
+    color: #AF3231;
     font-weight: 500;
 }
 
@@ -141,7 +141,7 @@ form textarea {
 
 button {
     height: 50px ;
-    background-color: #8708EE ;
+    background-color: #AF3231 ;
     color:white;
     font-weight: bold;
     text-transform: uppercase;
