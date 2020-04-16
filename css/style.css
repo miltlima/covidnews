@@ -111,10 +111,11 @@ footer {
     margin: 28px;
 }
 
-#autor h2 {
-    align-;
+.me a img {
+    width: 32px;
+    height: 32px;
+    margin: 0;
 }
-
 /* Seção do form*/
 
 #contato form {
