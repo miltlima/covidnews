@@ -129,6 +129,7 @@ a {
 form input,
 form textarea {
     width: 100%;
+    background-color: #F3F3F3;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
@@ -154,5 +155,10 @@ button {
 .links {
     display: flex;
     width: auto;
-    background-color: white;
+    background-color: #F3F3F3;
+
+}
+
+.links li a {
+    color: #AF3231;
 }
